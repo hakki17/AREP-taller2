@@ -1,5 +1,17 @@
 # AREP-taller2
 
+## Autor:
+
+María Paula Sánchez Macías
+
+## Universidad:
+
+Escuela Colombiana de Ingeniería Julio Garavito
+
+## Materia:
+
+Arquitecturas Empresariales
+
 ## Project Statement: Web Framework Development for REST Services and Static File Management
 
 Este taller presenta un framework web desarrollado por María Paula Sánchez Macías, en Java que permite crear servicios REST y servir archivos estáticos.
@@ -50,3 +62,10 @@ El servidor se iniciará en el puerto 35000 por defecto.
 ## Prueba Funcional
 
 ![Prueba Funcional](https://github.com/hakki17/AREP-taller2/blob/main/img/1.png)
+
+## Conceptos Aplicados
+
+- Arquitectura Cliente-Servidor
+- Protocolo HTTP
+- Programación Funcional
+- Patrones de Diseño
