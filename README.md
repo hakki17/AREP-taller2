@@ -1,37 +1,52 @@
 # AREP-taller2
 
-Framework Web HTTP Server
-Un framework web ligero desarrollado en Java que permite crear servicios REST y servir archivos estáticos de manera sencilla, similar a frameworks como Express.js o Spark Java.
-Descripción
-Este proyecto convierte un servidor HTTP básico en un framework completo para el desarrollo de aplicaciones web. Permite a los desarrolladores crear servicios REST usando funciones lambda y gestionar archivos estáticos con una API simple e intuitiva.
+## Project Statement: Web Framework Development for REST Services and Static File Management
 
-Requisitos del Sistema
+Este taller presenta un framework web desarrollado por María Paula Sánchez Macías, en Java que permite crear servicios REST y servir archivos estáticos.
 
-Java 8 o superior
-Maven 3.6 o superior
-Git
+## Descripción
 
-Instalación
-Pasos para ejecutar el servidor en tu entorno local:
+Este proyecto convierte un servidor HTTP básico en un framework completo para el desarrollo de aplicaciones web. Permite a los desarrolladores crear servicios REST y gestionar archivos estáticos con una API.
 
-Clonar el repositorio git clone https://github.com/hakki17/AREP-taller2
+## Requisitos del Sistema
 
-Compilar el proyecto mvn clean install
+- Java
+- Maven
+- Git
 
-Ejecutar el servidor mvn exec:java
+## Instalación
+
+Pasos para ejecutar el servidor:
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/hakki17/AREP-taller2
+   ```
+
+2. **Compilar el proyecto**
+   ```bash
+   mvn clean install
+   ```
+
+3. **Ejecutar el servidor**
+   ```bash
+   mvn exec:java
+   ```
 
 El servidor se iniciará en el puerto 35000 por defecto.
 
-Estructura del Proyecto
+## Estructura del Proyecto
 
-![](https://github.com/hakki17/AREP-taller2/blob/main/img/2.png)
+![Estructura del Proyecto](https://github.com/hakki17/AREP-taller2/blob/main/img/2.png)
 
-endpoints
+## Endpoints
 
-![](https://github.com/hakki17/AREP-taller2/blob/main/img/3.png)
-![](https://github.com/hakki17/AREP-taller2/blob/main/img/4.png)
-![](https://github.com/hakki17/AREP-taller2/blob/main/img/5.png)
+![Endpoint 1](https://github.com/hakki17/AREP-taller2/blob/main/img/3.png)
 
-Prueba Funcional
+![Endpoint 2](https://github.com/hakki17/AREP-taller2/blob/main/img/4.png)
 
-![](https://github.com/hakki17/AREP-taller2/blob/main/img/1.png)
+![Endpoint 3](https://github.com/hakki17/AREP-taller2/blob/main/img/5.png)
+
+## Prueba Funcional
+
+![Prueba Funcional](https://github.com/hakki17/AREP-taller2/blob/main/img/1.png)
