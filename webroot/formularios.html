@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios REST</title>
+    <link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+<div class="main-container">
+    <header class="header">
+        <h1>Servicios REST</h1>
+        <p>Prueba las funciones GET y POST</p>
+    </header>
+    
+    <div class="forms-grid">
+        <div class="form-card">
+            <h3>GET - Nombre</h3>
+            <form id="getForm">
+                <label for="getName">Escribe tu nombre:</label>
+                <input type="text" id="getName" name="name" value="Juan">
+                <button type="submit">Enviar GET</button>
+            </form>
+            <div id="getResponse" class="result-box"></div>
+        </div>
+        
+        <div class="form-card">
+            <h3>POST - Apellido</h3>
+            <form id="postForm">
+                <label for="postName">Escribe tu apellido:</label>
+                <input type="text" id="postName" name="apellido" value="García">
+                <button type="submit">Enviar POST</button>
+            </form>
+            <div id="postResponse" class="result-box"></div>
+        </div>
+    </div>
+    
+    <div class="forms-grid">
+        <div class="form-card">
+            <h3>Número PI</h3>
+            <button id="getPiForm">dame el número pi</button>
+            <div id="getPi" class="result-box"></div>
+        </div>
+        
+        <div class="form-card">
+            <h3>HELLO WORLD!</h3>
+            <button id="getHelloForm">Hello World!!!!!</button>
+            <div id="getHello" class="result-box"></div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h3>Instrucciones:</h3>
+        <p><strong>GET:</strong> Guarda tu nombre en el servidor</p>
+        <p><strong>POST:</strong> Guarda tu apellido usando JSON</p>
+        <p><strong>PI:</strong> Imprime el número pi</p>
+        <p><strong>HELLOWORLD:</strong> Imprime "Hola mundo"</p>
+    </div>
+    
+    <div class="navigation">
+        <button class="nav-btn" onclick="window.location.href='/'">Inicio</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

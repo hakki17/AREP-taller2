@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e3f2fd;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    background: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.info-card {
+    padding: 30px;
+}
+
+.info-card h2 {
+    color: #1976d2;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background: #bbdefb;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.diagram {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.action-area {
+    padding: 30px;
+    text-align: center;
+}
+
+.action-btn {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.action-btn:hover {
+    background: #1976d2;
+}
+
+/* Formularios */
+.forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.form-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-card h3 {
+    color: #1976d2;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #1976d2;
+}
+
+.result-box {
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    min-height: 30px;
+}
+
+.instructions {
+    padding: 20px;
+    background: #f0f8ff;
+}
+
+.nav-btn {
+    background: #64b5f6;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.nav-btn:hover {
+    background: #42a5f5;
+}
+
+@media (max-width: 600px) {
+    .forms-grid {
+        grid-template-columns: 1fr;
+    }
+}
